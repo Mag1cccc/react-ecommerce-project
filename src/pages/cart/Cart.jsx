@@ -2,6 +2,7 @@ import { PRODUCTS } from "../../Products";
 import { ShopContext } from "../../context/ShopContext";
 import { useContext } from "react";
 import { CartItem } from "./CartItem";
+import "./cart.css"
 
 export const Cart = () => {
   const { cartItems } = useContext(ShopContext);
